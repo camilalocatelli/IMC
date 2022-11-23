@@ -1,0 +1,35 @@
+:root {
+    --background: #22223b;
+    --text: #f2e9e4;
+    --input: #4a4e69;
+    --inputText: #c9ada7;
+    --button: #e0e1dd;
+    --buttonText: #0d1b2a;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    
+}
+
+h1, h3 {
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    color: var(--inputText);
+    background-color: var(--input);
+}
+
+button {
+    margin-top: 15px;
+    background-color: var(--button);
+    color: var(--buttonText);
+    
+}
